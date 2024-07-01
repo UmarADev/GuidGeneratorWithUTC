@@ -16,6 +16,11 @@ namespace GuidGeneratorWithUTC
                 TextCopy.ClipboardService.SetText( guidGenerator );
                 Console.WriteLine("Copied !");
 
+                DateTimeOffset utcTime = DateTimeOffset.UtcNow;
+                Console.WriteLine(utcTime);
+
+                Console.WriteLine("Do you want to continue? (y / n)");
+                userChoise = Console.ReadLine().ToLower();
             } while (userChoise == "y");
         }
     }
