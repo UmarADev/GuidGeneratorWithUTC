@@ -12,7 +12,10 @@ namespace GuidGeneratorWithUTC
             {
                 string guidGenerator = Guid.NewGuid().ToString();
 
-               
+                Console.WriteLine($"New Guid: {guidGenerator}");
+                TextCopy.ClipboardService.SetText( guidGenerator );
+                Console.WriteLine("Copied !");
+
             } while (userChoise == "y");
         }
     }
