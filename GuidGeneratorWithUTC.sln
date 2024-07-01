@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuidGeneratorWithUTC", "GuidGeneratorWithUTC\GuidGeneratorWithUTC.csproj", "{F75480EA-5DD3-4A16-995E-E50D4D8CE951}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F75480EA-5DD3-4A16-995E-E50D4D8CE951}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F75480EA-5DD3-4A16-995E-E50D4D8CE951}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F75480EA-5DD3-4A16-995E-E50D4D8CE951}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F75480EA-5DD3-4A16-995E-E50D4D8CE951}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {820F9EAF-88B6-4396-A3AC-610518F270B5}
+	EndGlobalSection
+EndGlobal
