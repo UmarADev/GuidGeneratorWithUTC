@@ -17,9 +17,9 @@ namespace GuidGeneratorWithUTC
                 Console.WriteLine("Copied !");
 
                 DateTimeOffset utcTime = DateTimeOffset.UtcNow;
-                Console.WriteLine(utcTime);
+                Console.WriteLine($"UTC Now: { utcTime}");
 
-                Console.WriteLine("Do you want to continue? (y / n)");
+                Console.WriteLine("Do you want to create new Guid? (y / n)");
                 userChoise = Console.ReadLine().ToLower();
             } while (userChoise == "y");
         }
