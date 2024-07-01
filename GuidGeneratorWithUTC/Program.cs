@@ -21,6 +21,7 @@ namespace GuidGeneratorWithUTC
 
                 Console.WriteLine("Do you want to create new Guid? (y / n)");
                 userChoise = Console.ReadLine().ToLower();
+
             } while (userChoise == "y");
         }
     }
